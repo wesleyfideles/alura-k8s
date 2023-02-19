@@ -3,7 +3,7 @@ echo -e "\e[31;1m Aplicando os arquivos .yml do diretório atual:\e[m \e[36;1m $
 sleep 5
 kubectl apply -f .
 echo -e "\e[31;1m Aguarde 60 segundos para os serviços iniciarem"
-sleep 1
+sleep 60
 echo -e "Serviços UP, aguarde mais 2 segundos para gerar o Token de acesso ao Dashboard k8s"
 sleep 2
 kubectl -n kubernetes-dashboard create token admin-user --> token.txt
