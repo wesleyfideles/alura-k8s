@@ -8,14 +8,14 @@ Porém acrescentei os arquivos .sh para executar e apagar a infraestrura necess�
 2. Clone o repositório e abra o terminal na pasta em que clonou o repo;
 3. Precisamos habilitar os arquivos .sh para executar, pra isso, digite os comandos: ```chmod 755 exec.sh``` e ```chmod 755 delete.sh```
 4. No terminal digite ```./exec.sh``` e após finalizar o script todos os serviços estarão funcionando;
-5. Para apagar toda infraestrutra execute ```./delete.sh```. <br/>
+5. Para apagar toda infraestrutra execute ```./delete.sh```. <br/> <br/>
 
-Para acessar: <br/>
+**Para acessar:** <br/>
 
-Portal Noticias (Visualizar as noticias postadas): https:localhost:30000 <br/>
-Sistema Noticias (Inserir as noticias): https:localhost:30001 <br/>
-Dashboard k8s (Acompanhar as métricas do cluster): https:localhost:30002 <br/>
+Portal Noticias (Visualizar as noticias postadas): ```https:localhost:30000``` <br/>
+Sistema Noticias (Inserir as noticias): ```https:localhost:30001``` <br/>
+Dashboard k8s (Acompanhar as métricas do cluster): ```https:localhost:30002``` <br/>
 
-O usuário e senha do Sistema Noticias é: admin 
+O usuário e senha do Sistema Noticias é: ```admin```
 
-Observação: Para acessar o dashboard k8s você deve inserir um token gerado no arquivo ```token.txt``` ou você poderá imprimir o token direto no terminal após a finalização do script.
+**Observação**: Para acessar o dashboard k8s você deve inserir um token gerado no arquivo ```token.txt``` ou você poderá imprimir o token direto no terminal após a finalização do script.
