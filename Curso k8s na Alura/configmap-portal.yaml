@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configmap-portal
+  namespace: alura-noticias
 data:
 # O IP do sistema é o localhost quando está sendo utilizado o docker desktop com o k8s ativo através do Windows ou macOS
 # No Linux é usado o minikube com virtualbox e o IP do sistema é o INTERNAL-IP que aparece no comando kubectl get nodes -o wide

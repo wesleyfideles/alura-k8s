@@ -2,6 +2,7 @@ apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: portal-noticias-hpa
+  namespace: alura-noticias
 spec:
   scaleTargetRef:
     apiVersion: apps/v1

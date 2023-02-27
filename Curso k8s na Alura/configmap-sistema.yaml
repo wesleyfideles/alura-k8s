@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configmap-sistema
+  namespace: alura-noticias
 data:
   HOST_DB: svc-db-noticias:3306
   USER_DB: root
