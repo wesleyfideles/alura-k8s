@@ -1,6 +1,6 @@
 # alura-k8s
 
-Esse projeto com referência no cursos da Alura: [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap) e [Kubernetes: Deployments, Volumes e Escalabilidade](https://cursos.alura.com.br/course/kubernetes-deployments-volumes-escalabilidade). <br/> <br/>
+Esse projeto é com referência no cursos da Alura: [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap) e [Kubernetes: Deployments, Volumes e Escalabilidade](https://cursos.alura.com.br/course/kubernetes-deployments-volumes-escalabilidade). <br/> <br/>
 O objetivo do curso é criar recursos comuns do k8s como: Pod, NodePort, ClusterIP, ConfigMap, HPA, Deployment, ReplicaSet, PVC e um [metric-server](https://github.com/kubernetes-sigs/metrics-server) utilizando um serviço de sistema de notícias.
 Porém acrescentei os arquivos .sh para executar e apagar a infraestrura necessária e o [Dashboard k8s](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/) ao meu projeto pessoal. <br/> <br/>
 
