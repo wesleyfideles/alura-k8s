@@ -12,8 +12,8 @@ Porém acrescentei os arquivos .sh para executar e apagar a infraestrura necess�
 
 **Para acessar:** <br/>
 
-Portal Noticias (Visualizar as noticias postadas): ```https:localhost:30000``` <br/>
-Sistema Noticias (Inserir as noticias): ```https:localhost:30001``` <br/>
+Portal Noticias (Visualizar as noticias postadas): ```http:localhost:30000``` <br/>
+Sistema Noticias (Inserir as noticias): ```http:localhost:30001``` <br/>
 Dashboard k8s (Acompanhar as métricas do cluster): ```https:localhost:30002``` <br/>
 
 O usuário e senha do Sistema Noticias é: ```admin```
